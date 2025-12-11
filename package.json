@@ -1,0 +1,43 @@
+{
+  "name": "clerk-webhook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:generate": "npx drizzle-kit generate",
+    "db:migrate": "npx drizzle-kit migrate",
+    "db:studio": "npx drizzle-kit studio"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "@prisma/adapter-pg": "^7.1.0",
+    "@prisma/client": "^7.1.0",
+    "@prisma/extension-accelerate": "^3.0.1",
+    "@stackframe/stack": "^2.8.54",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "next": "16.0.6",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "recharts": "^3.5.1",
+    "svix": "^1.82.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.7",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.6",
+    "prisma": "^7.0.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
